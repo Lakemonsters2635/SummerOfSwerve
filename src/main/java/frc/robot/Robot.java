@@ -81,7 +81,15 @@ public class Robot extends TimedRobot {
 
   /** This function is called periodically during operator control. */
   @Override
-  public void teleopPeriodic() {}
+  public void teleopPeriodic() {
+    double joystickX = RobotContainer.leftJoystick.getX();
+    double joystickY = RobotContainer.leftJoystick.getY();
+    double joystickZ = RobotContainer.leftJoystick.getZ();
+
+
+
+  }
+
 
   @Override
   public void testInit() {
